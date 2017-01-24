@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BadooTest</string>
+    <string name="products">Products</string>
+    <string name="loading_transactions">Loading transactions</string>
+    <string name="label_loading">Loading…</string>
+
+    <plurals name="transaction">
+        <item quantity="zero">transactions</item>
+        <item quantity="one">transaction</item>
+        <item quantity="other">transactions</item>
+    </plurals>
+</resources>

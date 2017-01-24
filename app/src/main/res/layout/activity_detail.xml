@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.badoo.badootest.ui.detail.DetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/z_toolbar"
+        app:titleTextColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/total_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/spacing_tinier"
+        android:paddingLeft="@dimen/spacing_smaller"
+        android:paddingRight="@dimen/spacing_smaller"
+        android:paddingTop="@dimen/spacing_tinier"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="Total: $532"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_converted_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
